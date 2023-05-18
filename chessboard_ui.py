@@ -1,3 +1,7 @@
+# TODO: Add dark mode (make it default)
+# TODO: Add a button to flip the board
+# TODO: Make separate text widgets for both player moves and engine recommendations
+
 import tkinter as tk
 import chess
 
@@ -8,6 +12,7 @@ window = tk.Tk()
 window.title("Chess")
 
 # Create a new canvas
+# TODO: Add window maximize
 canvas = tk.Canvas(window, width=600, height=400)
 canvas.pack()
 
@@ -36,6 +41,7 @@ piece_images = {
 }
 
 # Create the Text widget
+# TODO: Make dimensions dynamic (percentage of window size) and make the widget scrollable
 moves_text = tk.Text(window, height=24, width=20)
 moves_text.place(x=420)
 

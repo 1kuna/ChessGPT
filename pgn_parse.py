@@ -1,6 +1,10 @@
 import chess.engine
 import chess.pgn
 import io
+import chessboard_ui as cb
+
+# TODO: Create a unit test for each function
+# TODO: Incorporate chessboard (player and engine) moves text UI 
 
 def parse_pgn():
     game_path = input("Enter either the PGN code or file path: ")
