@@ -1,0 +1,3 @@
+conda env create -f env.yml
+
+conda env update --file env.yml --prune
